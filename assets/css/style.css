@@ -1,0 +1,104 @@
+
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+.card .card-image {
+position: relative;
+height: 500px;
+}
+
+i.large {
+font-size: 30rem;
+}
+
+/* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*/
+header {
+  padding: 20px 35px;
+  background-color: #39a6b2;
+}
+
+header a {
+  text-decoration: none;
+  color: brown;
+  text-shadow: 2px 2px 5px brown;
+  font-family: monospace;
+
+}
+
+header nav {
+  float: right;
+  margin: 7px 0;
+}
+
+header nav ul li {
+  display: inline;
+}
+header nav ul li a {
+  margin:0 35px;
+  font-weight: lighter;
+  font-size: 22px;
+}
+header h1 {
+  font-weight: bold;
+  font-size: 36px;
+  color: #fce138;
+  margin: 0;
+  display: inline;
+}
+
+body {
+  background-color: rgba(185, 120, 58, 0.541);
+}
+
+body .background-content {
+  background-image: url(../images/beach-background.jpg);
+  background-color: rgba(133, 81, 14, 0.705);
+  margin: 20px 35px;
+  border: bold;
+  background-position: cover;
+  border-width: 30px 30px;
+  font-family: cursive;
+}
+
+
+footer {
+  background:  #39a6b2;
+  width: 100%;
+  padding: 40px 35px;
+}
+
+footer h2 {
+  display: inline;
+  color:brown;
+  font-size: 30px;
+  margin: 0;
+}
+
+footer div {
+  float: right;
+  line-height: 1.5;
+  text-align: right;
+}
+
+footer a {
+  color: #a80878;
+}
+
+.employer-form {
+  background-color: brown;
+  padding: 25px;
+  width: 500px;
+  color: #024e76;
+}
+
+
+.flexbox-container{
+  display: flex;
+  flex-flow: column;
+
+}
